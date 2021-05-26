@@ -1,0 +1,70 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 10.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      1561,         60]
+NotebookOptionsPosition[      1239,         43]
+NotebookOutlinePosition[      1594,         59]
+CellTagsIndexPosition[      1551,         56]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{"SetPrecision", "[", 
+  RowBox[{
+   RowBox[{"Integrate", "[", 
+    RowBox[{
+     RowBox[{
+      RowBox[{"2", "*", 
+       RowBox[{"Sin", "[", "x", "]"}]}], "+", 
+      RowBox[{"Cos", "[", 
+       RowBox[{"2", "*", "x"}], "]"}]}], ",", 
+     RowBox[{"{", 
+      RowBox[{"x", ",", "0", ",", "5"}], "}"}]}], "]"}], ",", "6"}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.729895135714367*^9, 3.7298951566865797`*^9}, {
+  3.7298951883638477`*^9, 3.7298952059297743`*^9}}],
+
+Cell[BoxData["1.16066507362886256436434782604719674237`4.830276522392063"], \
+"Output",
+ CellChangeTimes->{3.7298951573728247`*^9, 3.729895206527652*^9}]
+}, Open  ]]
+},
+WindowSize->{808, 703},
+WindowMargins->{{181, Automatic}, {45, Automatic}},
+FrontEndVersion->"10.0 for Mac OS X x86 (32-bit, 64-bit Kernel) (June 27, \
+2014)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 487, 14, 28, "Input"],
+Cell[1070, 38, 153, 2, 28, "Output"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+
